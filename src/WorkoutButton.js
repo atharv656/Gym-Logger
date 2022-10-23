@@ -95,7 +95,7 @@ class WorkoutButton extends React.Component {
                 streak = streak + "🔥";
             }
             return (
-                <div className="grid grid-row-2 border-2 border-black py-fit rounded-2xl bg-red-100">
+                <div className="grid grid-row-2 border-2 border-black py-fit rounded-2xl bg-red-100 md:w-auto">
                     <Button onClick={() => this.handleClick(this.props.day)} className="bg-red-200/50 hover:bg-red-200/75 rounded-2xl mt-4 mx-auto w-fit text-3xl font-bold">
                         - {this.props.day} day {this.state.num}
                         <div className="rounded-lg mt-2 mx-auto px-2 w-fit text-xl normal-case">
@@ -107,9 +107,9 @@ class WorkoutButton extends React.Component {
                         <ul className='rounded-2xl font-normal bg-red-100 text-left pl-12' content>
                             {listItems}
                             <li className="">
-                                <input type="submit" value="Submit" onClick={this.cacheClick} className="block ml-36 my-4 bg-red-500/70 hover:bg-red-300/70 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"/>
                             </li>
                         </ul>
+                                <input type="submit" value="Submit" onClick={this.cacheClick} className="block mx-auto my-4 bg-red-500/70 hover:bg-red-300/70 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"/>
                     {/* </form> */}
                 </div>
             );

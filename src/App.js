@@ -39,25 +39,25 @@ function App() {
         <div className="overflow-scroll border-t-2 border-red-400/70 bg-gradient-to-b from-red-400/70 to-red-400/20 h-screen bg-opacity-0">
 
           <div className="flex flex-col items-center ">
-            <h1 className="text-6xl mt-[3%] text-green-100/80 font-bold">Workout Tracker</h1>
-            <h2 className="text-2xl text-green-100/80 font-bold">You're on a <span className="text-4xl text-green-200">{streak}</span> day streak!</h2>
+            <h1 className="mx-auto text-center text-6xl mt-[3%] text-green-100/80 font-bold">Workout Tracker</h1>
+            <h2 className="text-2xl text-green-100/80 font-bold text-center">You're on a <span className="text-4xl text-green-200">{streak}</span> day streak!</h2>
           </div>
         
-          <div className="grid grid-cols-3 mt-[5%]">
-            <div className=""></div>
+          <div className="grid md:grid-cols-3 md:mt-[5%] mt-[20%] mx-4">
+            <div></div>
             <WorkoutButton day="Chest" workout={chestWorkout} onClick={handleClick} collapsed={chestCollapsed} />
-            <div className=""></div>  
+            <div></div>  
           </div>
           <div></div>
 
-          <div className="grid grid-cols-3 mt-[5%]">
+          <div className="grid md:grid-cols-3 md:mt-[5%] mt-[15%] mx-4">
             <div></div>
             <WorkoutButton day="Back" workout={backWorkout} onClick={handleClick} collapsed={backCollapsed} />
             <div></div>  
           </div>
           <div></div>
 
-          <div className="grid grid-cols-3 mt-[5%]">
+          <div className="grid md:grid-cols-3 md:mt-[5%] mt-[15%] mx-4">
             <div></div>
             <WorkoutButton day="Leg" workout={legWorkout} onClick={handleClick} collapsed={legCollapsed} />
             <div></div>  
