@@ -17,7 +17,7 @@ I ended up starting with a web app that stores the logged data in browser cache.
 
 ## Tools
 
-ReactJS <br />
-TailwindCSS <br />
-Local Storage <br />
-GitHub Pages <br />
+- ReactJS <br />
+- TailwindCSS <br />
+- Local Storage <br />
+- GitHub Pages <br />
