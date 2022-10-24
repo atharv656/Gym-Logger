@@ -1,6 +1,6 @@
 # Gym Logger App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project can be viewed (and used) by [clicking here](https://atharvagashe.com/GymLogger)
 
 ## Goals
 
